@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4F40E02A29D1B00043D56F /* ApplyNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4F40DF2A29D1B00043D56F /* ApplyNow.swift */; };
 		FEE1C3E82A29B1900092AA79 /* Rapsoft_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1C3E72A29B1900092AA79 /* Rapsoft_AssignmentApp.swift */; };
 		FEE1C3EA2A29B1900092AA79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1C3E92A29B1900092AA79 /* ContentView.swift */; };
 		FEE1C3EC2A29B1920092AA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE1C3EB2A29B1920092AA79 /* Assets.xcassets */; };
 		FEE1C3EF2A29B1920092AA79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE1C3EE2A29B1920092AA79 /* Preview Assets.xcassets */; };
+		FEE1C3F82A29C6F90092AA79 /* SelectPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1C3F72A29C6F90092AA79 /* SelectPG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4F40DF2A29D1B00043D56F /* ApplyNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNow.swift; sourceTree = "<group>"; };
 		FEE1C3E42A29B1900092AA79 /* Rapsoft_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rapsoft_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE1C3E72A29B1900092AA79 /* Rapsoft_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rapsoft_AssignmentApp.swift; sourceTree = "<group>"; };
 		FEE1C3E92A29B1900092AA79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEE1C3EB2A29B1920092AA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE1C3EE2A29B1920092AA79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEE1C3F72A29C6F90092AA79 /* SelectPG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				FEE1C3E72A29B1900092AA79 /* Rapsoft_AssignmentApp.swift */,
 				FEE1C3E92A29B1900092AA79 /* ContentView.swift */,
 				FEE1C3EB2A29B1920092AA79 /* Assets.xcassets */,
+				FEE1C3F72A29C6F90092AA79 /* SelectPG.swift */,
+				FE4F40DF2A29D1B00043D56F /* ApplyNow.swift */,
 				FEE1C3ED2A29B1920092AA79 /* Preview Content */,
 			);
 			path = Rapsoft_Assignment;
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE1C3F82A29C6F90092AA79 /* SelectPG.swift in Sources */,
 				FEE1C3EA2A29B1900092AA79 /* ContentView.swift in Sources */,
 				FEE1C3E82A29B1900092AA79 /* Rapsoft_AssignmentApp.swift in Sources */,
+				FE4F40E02A29D1B00043D56F /* ApplyNow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
